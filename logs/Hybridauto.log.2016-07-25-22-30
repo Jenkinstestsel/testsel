@@ -1,0 +1,2 @@
+[INFO] 2016-07-25 22:30:17,022 TestScripts.Scenario_Search Valid_Search - chrome:GB_09:1.0-Failed as Actual result is 493 and expected results is 491.0.
+[INFO] 2016-07-25 22:30:24,046 TestScripts.Scenario_Search Valid_Search - chrome:GB_10:1.0-Failed as Actual result is 432 and expected results is 234.0.

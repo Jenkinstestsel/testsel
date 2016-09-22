@@ -1,0 +1,5 @@
+[INFO] 2016-09-22 06:49:12,415 TestScripts.Scenario_Search Invalid_Search - GB_08:1.0-Failed as Actual result is Sorry..'hjfd' does not match any product on Rediff Books. and expected results is Sorry..'hjfd' oes not match any product on Rediff Books..
+[INFO] 2016-09-22 06:49:16,583 TestScripts.Scenario_Search Invalid_Search - GB_08:1.0-Failed as Actual result is Sorry..'hjfd' does not match any product on Rediff Books. and expected results is Sorry..'hjfd' oes not match any product on Rediff Books..
+[INFO] 2016-09-22 06:49:36,155 TestScripts.Scenario_Search Valid_Search - ie:GB_09:1.0-Failed as Actual result is 497 and expected results is 491.0.
+[INFO] 2016-09-22 06:49:43,488 TestScripts.Scenario_Search Valid_Search - firefox:GB_09:1.0-Failed as Actual result is 497 and expected results is 491.0.
+[INFO] 2016-09-22 06:49:59,791 TestScripts.Scenario_Search Valid_Search - ie:GB_10:1.0-Failed as Actual result is 439 and expected results is 234.0.

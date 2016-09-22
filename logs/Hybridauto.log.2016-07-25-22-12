@@ -1,0 +1,2 @@
+[INFO] 2016-07-25 22:12:34,002 TestScripts.Scenario_Search Valid_Search - firefox:GB_09:1.0-Failed as Actual result is 493 and expected results is 491.0.
+[INFO] 2016-07-25 22:12:43,605 TestScripts.Scenario_Search Valid_Search - firefox:GB_10:1.0-Failed as Actual result is 432 and expected results is 234.0.

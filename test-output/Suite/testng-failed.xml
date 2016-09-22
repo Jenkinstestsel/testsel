@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="TestScripts.Scenario_Login">
+        <methods>
+          <include name="Projectend"/>
+          <include name="Invalid_Login" invocation-numbers="0 2 5"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+          <include name="intialsetup"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestScripts.Scenario_Login -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+  <test name="Chrometest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestScripts.Scenario_Login">
+        <methods>
+          <include name="Projectend"/>
+          <include name="Invalid_Login" invocation-numbers="0 1 3 4 5"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+          <include name="intialsetup"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestScripts.Scenario_Login -->
+    </classes>
+  </test> <!-- Chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

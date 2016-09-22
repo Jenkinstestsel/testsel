@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="firefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestScripts.Scenario_Search">
+        <methods>
+          <include name="Valid_Search" invocation-numbers="0 1"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+          <include name="initialize_Browser"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestScripts.Scenario_Search -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+  <test name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="TestScripts.Scenario_Search">
+        <methods>
+          <include name="Valid_Search"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+          <include name="initialize_Browser"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestScripts.Scenario_Search -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+  <test name="Chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestScripts.Scenario_Search">
+        <methods>
+          <include name="Valid_Search" invocation-numbers="0 1"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+          <include name="initialize_Browser"/>
+          <include name="initialize_Browser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestScripts.Scenario_Search -->
+    </classes>
+  </test> <!-- Chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
